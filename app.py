@@ -94,4 +94,4 @@ with gr.Blocks(
     submit.click(swap_face, inputs=[source_image, target_video, face_enhancer, video_quality], outputs=output_video)
 
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
