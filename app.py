@@ -78,8 +78,6 @@ with gr.Blocks(
         Upload a source image and a target video, select whether to enable face enhancer, many-face mode and adjust video quality. Then click 'Submit' to swap faces in the video.
         **Credits:**
         
-        This study was conducted in the College of Creative Design and Entertainment Technology laboratory at Dhurakij Pundit University by Asst. Prof. Banyapon Poolsawas. The project builds upon the s0md3v/roop repository (https://github.com/s0md3v/roop) for face swapping experiments with video files in the Generative AI and Machine Learning course.
-        """
     )
 
     with gr.Row():
