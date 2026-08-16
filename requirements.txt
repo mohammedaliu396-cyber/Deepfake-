@@ -1,4 +1,5 @@
-
+wheel
+setuptools<81
 numpy==1.23.5
 opencv-python==4.7.0.72
 onnx==1.14.0
